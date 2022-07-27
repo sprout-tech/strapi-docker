@@ -6,7 +6,10 @@
   "author": "Alexandre Bodin <bodin.alex@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build:publish:base": "./bin/build.js -t base -p true",
+    "build:publish:strapi": "./bin/build.js -t strapi -p true",
+    "build:publish:all": "./bin/build.js -t all -p true"
   },
   "dependencies": {
     "chalk": "^2.4.2",

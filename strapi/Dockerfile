@@ -1,5 +1,5 @@
 ARG BASE_VERSION
-FROM strapi/base:${BASE_VERSION}
+FROM sprouttech/base:${BASE_VERSION}
 
 ARG STRAPI_VERSION
 RUN yarn global add @strapi/strapi@${STRAPI_VERSION}
